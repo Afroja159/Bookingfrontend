@@ -9,7 +9,7 @@
 .headerContainer {
     width: 100%;
     max-width: 1024px;
-    margin: 20px 0px 100px 0px;
+    margin: 20px 0px 55px 0px;
 }
 
 .headerContainer.listMode {
@@ -20,6 +20,7 @@
 .headerList {
     display: flex;
     gap: 40px;
+    margin-bottom: 25px;
 
 }
 
@@ -86,9 +87,11 @@
 .date {
     position: absolute;
     top: 50px;
+    z-index: 2;
 }
 
 .options {
+    z-index: 2;
     position: absolute;
     top: 50px;
     background-color: white;
@@ -96,6 +99,7 @@
     border-radius: 5px;
     background: #eee;
     box-shadow: 0 8px 8px -4px lightblue;
+
 }
 
 .optionItem {
